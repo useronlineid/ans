@@ -24,7 +24,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
                 
                 <p style="position: absolute; top: 175px; left: 500px; color:#656565; font-size: 20px; font-weight: bold;">${transactionDate}</p>     
                 <p style="position: absolute; top: 200px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรื่อง ยืนยันฐานข้อมูลธุรกรรม</p>     
-                <p style="position: absolute; top: 225px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรื่อง ${accountNumber}</p>     
+                <p style="position: absolute; top: 225px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">เรียน ${accountNumber}</p>     
                 <p style="position: absolute; top: 250px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;">ยูสเซอร์ ${referenceNumber}</p>     
                 
                 <p style="position: absolute; top: 290px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เนื่องด้วยเมื่อวันที่ ${transactionDate} ระบบไม่สามารถดำเนินการสั่งจ่ายยอด วงเงินทั้งสิ้น ${recipientName} บาท
@@ -36,7 +36,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
 ทําการแก้ไขข้อมูลบุคคลในระบบให้ได้ก็ ต่อเมื่อได้รับการยืนยันข้อมูลธุรกรรมภายใต้ ${accountNumber}
 ยอดเงินที่สามารถเบิกถอนได้ทั้งสิ้น ${notes} บาท</p>                  
 
-                <p style="position: absolute; top: 483px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ผลเสียที่จะได้รับหากไม่มีการดําาเนินการยืนยันตัวตนภายใต้ชื่อยอดวงเงินทั้งหมด</p>     
+                <p style="position: absolute; top: 483px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ผลเสียที่จะได้รับหากไม่มีการดําเนินการยืนยันตัวตนภายใต้ชื่อยอดวงเงินทั้งหมด</p>     
                 <p style="position: absolute; top: 510px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. ไม่ได้รับวงเงินแต่ต้องชำระเงิน ${recipientName} บาท และเงินถูกตัดยอดเป็นศูนย์</p>     
                 <p style="position: absolute; top: 537px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. หากไม่ยอมรับผลเสียถือว่าสมาชิกมีเจตนาฉ้อโกงบริษัท</p>     
                 <p style="position: absolute; top: 565px; left: 40px; color:#656565; font-size: 20px; font-weight: bold;width: 90%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. ว่าด้วยกฎหมายมาตรา 10 ผู้ใดกระทําด้วยประการโดยมิชอบเพื่อให้การทางานของระบบ
