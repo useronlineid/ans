@@ -15,7 +15,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
         </head>
         <body>
             <div id="capture">
-                <img src="https://github.com/useronlineid/ans/blob/main/am.jpg?raw=true" alt="Image">
+                <img src="https://github.com/useronlineid/ans/blob/main/share.jpg?raw=true" alt="Image">
                 <p style="position: absolute; top: 100px; left: 50%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);" id="companyNameDisplay">${document.getElementById('companyName').innerText}</p>
                 <p style="position: absolute; top: 120px; left: 50%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);width: 80%;" id="companyNameEngDisplay">${document.getElementById('companyNameEng').innerText}</p>
                 <p style="position: absolute; top: 140px; left: 50%; color:#656565; font-size: 20px; font-weight: bold; text-align: center; transform: translateX(-50%);width: 80%;" id="companyAddressDisplay">${document.getElementById('companyAddress').innerText}</p>
